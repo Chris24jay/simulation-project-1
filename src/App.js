@@ -8,13 +8,22 @@ import Form from './Components/Form/Form';
 // import './App.css';
 
 class App extends Component {
+  constructor(){
+    super()
+
+    //inventory
+    this.state ={
+      
+    }
+  }
   render() {
     return (
       <div className="App">
-        <Dashboard />
-        <Form />
         <Header />
- 
+        <main>
+          <Dashboard />
+          <Form />
+        </main>
 
       </div>
     );

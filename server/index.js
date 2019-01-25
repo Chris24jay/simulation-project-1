@@ -13,5 +13,5 @@ massive(process.env.CONNECTION_STRING)
 .catch((err) => console.log(err))
 
 
-const PORT = 3030
+const SERVER_PORT = 3030
 app.listen(PORT, () => console.log(`We are live at port: ${PORT}`))
