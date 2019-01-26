@@ -30,6 +30,8 @@ class App extends Component {
       
   }
 
+  //method to handle product post 
+
 
   render() {
     console.log(this.state.inventory)

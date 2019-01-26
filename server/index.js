@@ -13,6 +13,7 @@ massive(process.env.CONNECTION_STRING)
 .catch((err) => console.log(err))
 
 app.get(`/api/inventory`, ctrl.getInventory)
+app.post(`/api/inventory`, ctrl.create)
 
 
 const SERVER_PORT = 4000
